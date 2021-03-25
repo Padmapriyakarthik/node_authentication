@@ -14,7 +14,7 @@ const transporter=nodemailer.createTransport({
     service:'gmail',
     auth:{
         user:'padmapriyakarthik97@gmail.com',
-        pass:'padmakarthik11'
+        pass:process.env.PASSWORD
     }
 });
 
